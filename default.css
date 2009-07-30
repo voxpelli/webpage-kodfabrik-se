@@ -7,13 +7,14 @@ dt, dl, dd, table, tr, th, td {
 	border: 0;
 }
 body {
-	font-size: medium;
-	line-height: 150%;
+	font-size: x-large;
+	line-height: normal;
 	font-family: 'Trebuchet MS','Helvetica',sans-serif;
-	text-align: center;
+	text-align: left;
 	color: #fff;
-	background: #7b030c url('/images/bg.gif') repeat-x 0 0;
-	padding: 20px;
+	background: #7b030c url(data:image/gif;base64,R0lGODlhAQDxAOYAANkEFtcEFtYEFdUEFdQEFdMEFdIEFdEEFdAEFc4EFc0EFeYFF+UFF+QFF+MFF+IFF+EFF+AFF98FF94FF90FF9sFFtoFFswEFcsEFcoEFckEFcgEFccEFMYEFMUEFMQEE8MEE8IEE8EEE8AEE78EE74EE70EE7wEE7sEE7oEE7kEE7cEErcEE7YEErUEErQEErMEErIEErEEErAEEq8EEq4EEq0EEawEEasEEZUDD5QDDpQDD5MDDpIDDpEDDpADDo8DDo4DDo0DDowDDosDDooDDYoDDokDDYgDDYcDDYYDDYUDDYQDDYMDDYIDDYEDDaoEEakEEagEEacEEaYEEKUEEKQEEKMEEKIEEKEEEKAEEJ8EEJ4ED54EEJ0ED5wED5sED5oED5kED5gED5cED5YED4ADDIADDX8DDH4DDH0DDHwDDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAAAQDxAAAHzIALDAwNDQ4OD4kQixESEhMTFJIVFRYWAJgBmgIDAwQEBQUGBwilCacKFxcYGRoaGxyxHR4fHyAhISIjIyQkJSYnJygpKSoqLCwrLS4vLzAwMTIzMzQ1NTY2Nzc4UFFRUlJTVFRVVuZXV1hZWlpbW11cXl5fX2BhYWJiY2T8ZWU5O3bo4MGjRw8fCH/8AAIkiEMhQoZIJELRSJEjGJFoTMIxiRIlS0KGZMKkickmTlKmfMKS5ZkzZmKimUkzjc2bNtXo3Mlzjc+fQIMGAgA7) repeat-x 0 0;
+	padding: 0 20px 20px;
+	width: 600px;
 }
 a {
 	color: #ffc000;
@@ -30,13 +31,14 @@ strong {
 	font-weight: 500;
 }
 h1 a {
-	font-size: larger;
+	font-size: 1.4em;
 	line-height: normal;
 	color: #fff;
 	text-decoration: none;
 	text-transform: lowercase;
 	font-weight: 500;
 	font-family: Arial,sans-serif;
+	padding: 0;
 }
 h1 a:hover {
 	color: #fff;
@@ -48,46 +50,6 @@ h1 strong {
 	margin-left: -.34em;
 	background: none;
 }
-p, ul {
-	padding: 10px;
-	overflow: hidden;
-}
-ul {padding-left: 30px;}
-img {
-	margin: 9px 9px 0;
-	display: block;
-	border: 1px solid #fff;
-}
-div.box, div.climate {
-	width: auto !important;
-	width: 550px;
-	max-width: 550px;
-	background: #4f0000;
-	margin: 20px auto 0;
-	text-align: left;
-	overflow: hidden;
-}
-div.menu {color: #FFC000;}
-div.climate h2 a {
-	background: #74b347;
-	border: 1px solid #334f20;
-}
-div.climate {background: #334f20;}
-div.climate a:hover {
-	background: #ffc000;
-	color: #334f20;
-}
-div.climate strong {background: #74b347;}
-.accordion {
-	overflow: hidden;
-}
-h2 a {
-	background: #b30412;
-	padding: 5px 9px;
-	font-size: medium;
-	text-transform: uppercase;
-	border: 1px solid #4F0000;
-	color: #fff;
-	display: block;
-	text-decoration: none;
+p {
+  padding: .33em 0;
 }
