@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>MTG Cardlinker</title>
+	<link rel="alternate" type="application/rss+xml" title="MTG Cardlinker Updates" href="http://kodfabrik.se/userscripts/mtg/updates.xml" />
+    <script type="text/JavaScript">
+    <!--
+        function AM_securemail() {
+            var link = document.getElementsByTagName("a");
+            var re =/mailto:(\w+)\([A-Z-]+\)(\w+)\([A-Z]+\)(\w+)/i;
+            for (i = 0; i < link.length; i++) {
+                st = link[i].getAttribute("href");
+                link[i].setAttribute("href", st.replace(re, "mailto:$1@$2.$3"));
+            }
+        }
+    //-->
+    </script>
+	<style type="text/css">
+		#doc {
+			width: 940px;
+			height: 510px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin: -260px 0 0 -470px;
+			padding: 30px 0 0;
+			background: #4481B3 url('bg.png') no-repeat 0 0;
+			color: #F7F0AE;
+			font: 11px Verdana, sans-serif;
+		}
+		#magiccardsinfo, #international {
+		    margin-right: 50px;
+		}
+		#magiccardsinfo {
+		    padding-left: 30px;
+		}
+        #svm {
+            margin-right: 30px;
+        }
+		#footer {
+		    height: 20px;
+		    width: 100%;
+		    background: #fff;
+		    clear: both;
+		    color: #9C453B;
+		    line-height: 20px;
+		    text-align: center;
+		}
+        #footer a {
+            color: #9C453B;
+		}
+		div.description {
+		    width: 260px;
+		    height: 490px;
+		    float: left;
+		}
+		a {
+			color: #F7F0AE;
+		}
+		h1 {
+			margin: 0 0 10px;
+		}
+		h2 {
+			margin: 7px 0;
+		}
+		ol, ul {
+			padding: 0 0 0 20px;
+			margin: 0
+		}
+		li {
+			margin: 0 0 7px;
+		}
+	</style>
+</head>
+<body onload="AM_securemail();">
+	<div id="doc">
+        <div id="magiccardsinfo" class="description">
+            <h1>MagicCards.info Cardlinker</h1>
+            <ol>
+                <li>Install the Firefox extension <a href="https://addons.mozilla.org/en-US/firefox/addon/748">Greasemonkey</a> and restart Firefox</li>
+                <li>Install the <a href="info.user.js">MTG Cardlinker Userscript [MagicCards.info-edition]</a> (<a href="http://wiki.greasespot.net/Greasemonkey_Manual:Installing_Scripts">Help</a>)</li>
+                <li>Perhaps change which sites the MTG Cardlinker is activated on (<a href="http://wiki.greasespot.net/Greasemonkey_Manual:Manage_Dialog">Help</a>)</li> 
+                <li>Test the script on something, new links have a yellow background.</li> 
+            </ol>
+            <h2>Notes</h2>
+            <ul>
+                <li>Links cards to <a href="http://magiccards.info/">MagicCards.info</a> cardpopup and by default checks for card names on <a href="http://www.starcitygames.com/">StarCityGames.com</a> and <a href="http://mtgsalvation.com/">MTG Salvation</a>, please <a href="mailto:gk(AT)vox(DOT)nu">suggest more sites</a>.</li>
+                <li>This userscript checks for a new version on this server once a week, max, to notify you about updates.</li>
+                <li>You're using this userscript at your own risk - of course.</li>
+            </ul>
+        </div>
+	    <div id="international" class="description">
+			<h1>MTG Cardlinker</h1>
+			<ol>
+				<li>Install the Firefox extension <a href="https://addons.mozilla.org/en-US/firefox/addon/748">Greasemonkey</a> and restart Firefox</li>
+				<li>Install the <a href="mtg.user.js">MTG Cardlinker Userscript</a> (<a href="http://wiki.greasespot.net/Greasemonkey_Manual:Installing_Scripts">Help</a>)</li>
+				<li>Perhaps change which sites the MTG Cardlinker is activated on (<a href="http://wiki.greasespot.net/Greasemonkey_Manual:Manage_Dialog">Help</a>)</li> 
+				<li>Test the script on something, for example a <a href="http://www.starcitygames.com/phpBB2/viewtopic.php?t=302302">deck discussion</a>, new links can be identified by their yellow background.</li> 
+			</ol>
+			<h2>Notes</h2>
+			<ul>
+                <li>Links cards to <a href="http://ww2.wizards.com/gatherer/">WotC's Gatherer</a>'s cardpopup and by default checks for card names on <a href="http://www.starcitygames.com/">StarCityGames.com</a> and <a href="http://mtgsalvation.com/">MTG Salvation</a>, please <a href="mailto:gk(AT)vox(DOT)nu">suggest more sites</a>.</li>
+			    <li>This userscript checks for a new version on this server once a week, max, to notify you about updates.</li>
+				<li>You're using this userscript at your own risk - of course.</li>
+			</ul>
+	    </div>
+        <div id="svm" class="description">
+            <h1>SvM Cardlinker</h1>
+            <ol>
+                <li>Install the Firefox extension <a href="https://addons.mozilla.org/en-US/firefox/addon/748">Greasemonkey</a> and restart Firefox</li>
+                <li>Install the <a href="svm.user.js">MTG Cardlinker Userscript [SvM-edition]</a> (<a href="http://wiki.greasespot.net/Greasemonkey_Manual:Installing_Scripts">Help</a>)</li>
+                <li>Perhaps change which sites the MTG Cardlinker is activated on (<a href="http://wiki.greasespot.net/Greasemonkey_Manual:Manage_Dialog">Help</a>)</li> 
+                <li>Test the script on something, for example this <a href="http://www.svenskamagic.com/artiklar/index.php?ID=85">old Nemesis-article</a>, new links can be identified by their yellow background.</li> 
+            </ol>
+            <h2>Notes</h2>
+            <ul>
+                <li>Links cards to <a href="http://www.svenskamagic.com/">SvenskaMagic.com</a>'s cardpopup and by default checks for card names on that site only.</li>
+                <li>This userscript checks for a new version on this server once a week, max, to notify you about updates.</li>
+                <li>You're using this userscript at your own risk - of course.</li>
+                <li><a href="http://www.svenskamagic.com/forumet/topic.php?ID=85682">Forum topic</a> at <a href="http://www.svenskamagic.com/">SvenskaMagic.com</a>.</li>
+            </ul>
+        </div>
+        <div id="footer">
+            Using Safari instead of Firefox? You could try out <a href="http://8-p.info/greasekit/">GreaseKit</a> and if you do - please <a href="mailto:gk(AT)vox(DOT)nu">mail me</a> and tell if my scripts work.<br />
+			User of <a href="http://www.svenskamagic.com/">SvenskaMagic.com</a>? I've created a <a href="http://en.wikipedia.org/wiki/Bookmarklet">bookmarklet</a> for you. Drag this link - <a href="javascript:(function(){var kort=prompt('F%C3%B6r att f%C3%A5 Svenskamagics korttaggar p%C3%A5 en lista med kort fyll i kortnamnen separerade av semikolon:');kort=kort.split(';');var answer='[card]'+kort[0]+'[/card]';for(var i=1;i<kort.length;i++){answer=answer+', [card]'+kort[i]+'[/card]'};var textareas = document.getElementsByTagName('textarea');if(textareas.length > 0){textareas[0].value = textareas[0].value + answer;}})()">Tag cards</a> - to your bookmarks and then click on the bookmark to use it.<br />
+            Made by <a href="http://kodfabrik.se/">Pelles Kodfabrik</a>. Subscribe to this <a href="updates.xml">RSS-feed</a> for updates. Scripts also <a href="http://userscripts.org/users/10013;scripts">available on Userscripts.org</a>.
+        </div>
+	</div>
+</body>
+</html>

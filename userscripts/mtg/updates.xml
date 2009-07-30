@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>MTG Cardlinker</title>
+        <link>http://kodfabrik.se/userscripts/mtg/</link>
+        <language>en-US</language>
+        <lastBuildDate>Sun, 30 Sep 2007 18:41:02 +0200</lastBuildDate>
+        <description>A Greasemonkey userscript for automatically linking of Magic: The Gathering cards on webpages</description>
+        <generator>Pelles Kodfabrik</generator>
+        <managingEditor>gk@vox.nu (Pelle Wessman)</managingEditor>
+        <webMaster>gk@vox.nu (Pelle Wessman)</webMaster>
+        <item>
+            <title>Morningtide support</title>
+            <link>http://kodfabrik.se/userscripts/mtg/</link>
+            <pubDate>Thu, 23 Jan 2008 15:30:02 +0100</pubDate>
+            <description>Now the cards from the new expansion Morningtide are inlcuded in the scripts. Users should get a message about it automatically.</description>
+        </item>
+        <item>
+            <title>Added SvenskaMagic.com bookmarklet</title>
+            <link>http://kodfabrik.se/userscripts/mtg/</link>
+            <pubDate>Thu, 27 Dec 2007 14:01:02 +0100</pubDate>
+            <description>I've added a bookmarklet to the site. It can be used to easily apply card tags on multiple card names for the site SvenskaMagic.com</description>
+        </item>
+        <item>
+            <title>Added link to GreaseKit for Safari</title>
+            <link>http://kodfabrik.se/userscripts/mtg/</link>
+            <pubDate>Tue, 6 Nov 2007 09:01:02 +0100</pubDate>
+            <description>I've added a link to GreaseKit to this site to enable Safari-users to also benefit from the userscripts. If it work? No idea - haven't got a mac myself...</description>
+        </item>
+        <item>
+            <title>Initial release of international scripts</title>
+            <link>http://kodfabrik.se/userscripts/mtg/</link>
+            <pubDate>Sun, 30 Sep 2007 18:41:02 +0200</pubDate>
+            <description>Today I've released this userscript in two non-swedish versions. One links card names to Wizards of the Coast's Gatherer's popups and the other links to MagicCards.info's popups. Both scripts are up to date with the swedish script released yesterday, which means that they got the new engine and all card names of physical cards ever released, including Lorwyn, Unhinged and Unglued.</description>
+        </item>
+    </channel>
+</rss>
