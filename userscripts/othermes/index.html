@@ -2,31 +2,17 @@
 <html class="no-js">
 <head>
 	<meta charset="utf-8">
-	<title>Random Site</title>
+	<title>OtherMes</title>
 	<link rel="stylesheet" type="text/css" media="all" href="style.css" />
-	<link rel="stylesheet" type="text/css" media="all" href="../css/flattr-button.css" />
-	<script src="../js/jquery.js" type="text/javascript" charset="utf-8"></script>
-	<script type="text/javascript" charset="utf-8">
-		document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/,'js');
-		$(function () {
-			$('.flattr-button a[target="_blank"]').attr('target', 'flattrpopup').click(function () {
-				var newwindow = window.open($(this).attr('href'), 'flattrpopup', 'height=465,width=870');
-				if (window.focus) {
-					newwindow.focus();
-				}
-				return false;
-			});
-		});
-	</script>
 	<script type="text/javascript">
 	/* <![CDATA[ */
-			(function() {
-					var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
-					s.type = 'text/javascript';
-					s.async = true;
-					s.src = 'http://api.flattr.local/js/0.6/load.js?mode=auto';
-					t.parentNode.insertBefore(s, t);
-			})();
+	    (function() {
+	        var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
+	        s.type = 'text/javascript';
+	        s.async = true;
+	        s.src = 'http://api.flattr.com/js/0.6/load.js?mode=auto';
+	        t.parentNode.insertBefore(s, t);
+	    })();
 	/* ]]> */
 	</script>
 </head>
@@ -45,6 +31,7 @@
 			<li>Make sure you have <a href="https://addons.mozilla.org/firefox/addon/greasemonkey/">Greasemonkey</a> installed - otherwise install it.</li>
 			<li>Install the userscript by <a href="https://gist.github.com/raw/1057494/cd280e30038ffb59a4cbf2eef9ceda9fdc22c5ad/othermes.user.js">clicking here</a>.</li>
 		</ol></p>
+		<p><em>(I will probably move the script to a full GitHub repository, so don't link directy to it if you blog about it - link here or to <a href="https://gist.github.com/1057494">the gist</a> instead)</em></p>
 	</div>
 	<div>
 		<h2>Screenshot</h2>
@@ -57,9 +44,20 @@
 	</div>
 	<div>
 		<h2>Do a social dance?</h2>
-		<p><g:plusone size="medium"></g:plusone></p>
+		<p>Can't do a social script without doing a social dance - so here's the button you'd expect:</p>
+		<p>
+			<a class="FlattrButton" style="display:none;" rev="flattr;button:compact;" href="http://kodfabrik.se/userscripts/othermes/"></a>
+			<noscript><a href="http://flattr.com/thing/332123/OtherMes" target="_blank">
+			<img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></noscript>
+			<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="voxpelli">Tweet</a>
+			<g:plusone size="medium"></g:plusone>
+		</p>
 	</div>
+
 	<address>Built by <a rel="author" href="http://kodfabrik.se/">Pelle Wessman</a></address>
+
 	<a href="https://gist.github.com/1057494"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+
+	<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
 	<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
 </body>
