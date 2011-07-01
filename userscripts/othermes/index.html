@@ -1,0 +1,65 @@
+<!doctype html>
+<html class="no-js">
+<head>
+	<meta charset="utf-8">
+	<title>Random Site</title>
+	<link rel="stylesheet" type="text/css" media="all" href="style.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="../css/flattr-button.css" />
+	<script src="../js/jquery.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" charset="utf-8">
+		document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/,'js');
+		$(function () {
+			$('.flattr-button a[target="_blank"]').attr('target', 'flattrpopup').click(function () {
+				var newwindow = window.open($(this).attr('href'), 'flattrpopup', 'height=465,width=870');
+				if (window.focus) {
+					newwindow.focus();
+				}
+				return false;
+			});
+		});
+	</script>
+	<script type="text/javascript">
+	/* <![CDATA[ */
+			(function() {
+					var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
+					s.type = 'text/javascript';
+					s.async = true;
+					s.src = 'http://api.flattr.local/js/0.6/load.js?mode=auto';
+					t.parentNode.insertBefore(s, t);
+			})();
+	/* ]]> */
+	</script>
+</head>
+<body>
+	<div id="header">
+		<h1><a href="/">Other<em>Mes</em></a></h1>
+		<div class="subtitle">Showing social graph profiles on Twitter</div>
+	</div>
+	<div>
+		<p>OtherMes is a <a href="https://addons.mozilla.org/firefox/addon/greasemonkey/">Greasemonkey</a> script that adds icons to tweets that shows the Twitter user's profiles on other social networks.</p>
+		<p>It's built and tested on <strong>Firefox 5</strong> (the cross-site requests aren't supported by Chrome and haven't had time to workaround it yet). it utilizes Google's <a href="http://code.google.com/apis/socialgraph/">Social Graph API</a> to discover other profiles. It can be a Facebook account, a Google+ account or an about page on a blog.</p>
+	</div>
+	<div>
+		<h2>Install it</h2>
+		<p><ol>
+			<li>Make sure you have <a href="https://addons.mozilla.org/firefox/addon/greasemonkey/">Greasemonkey</a> installed - otherwise install it.</li>
+			<li>Install the userscript by <a href="https://gist.github.com/raw/1057494/cd280e30038ffb59a4cbf2eef9ceda9fdc22c5ad/othermes.user.js">clicking here</a>.</li>
+		</ol></p>
+	</div>
+	<div>
+		<h2>Screenshot</h2>
+		<p><a href="https://skitch.com/voxpelli/f8wnx/1-twitter-home"><img style="max-width:638px" src="https://img.skitch.com/20110701-bygd7sgwghw47u98k17ddupwaa.preview.jpg" alt="(1) Twitter / Home" /></a></p>
+	</div>
+	<div>
+		<h2>Be part of the social graph</h2>
+		<p>By making sure there are links between all of your profiles marked up with <a href="http://microformats.org/wiki/rel-me">rel="me"</a> you should get them included when people indexes your social graph. If you can - make the rel="me" links bidirectional to make them more trustworthy.</p>
+		<p>Combine rel="me" with <a href="http://www.google.com/support/webmasters/bin/answer.py?answer=1229920">rel=author</a> relations to also tie your content in to the social graph.</p>
+	</div>
+	<div>
+		<h2>Do a social dance?</h2>
+		<p><g:plusone size="medium"></g:plusone></p>
+	</div>
+	<address>Built by <a rel="author" href="http://kodfabrik.se/">Pelle Wessman</a></address>
+	<a href="https://gist.github.com/1057494"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+	<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+</body>
