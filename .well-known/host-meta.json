@@ -1,0 +1,9 @@
+{
+	"links": [
+		{
+			"rel": "lrdd", 
+			"template": "http://kodfabrik.se/webfinger.php?q={uri}&json=1", 
+			"type": "application/json"
+		}
+	]
+}
