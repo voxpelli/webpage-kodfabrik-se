@@ -21,7 +21,7 @@
 	</script>
 	<style>
 		div,p,h1,h2,h3,h4,ul,ol,a,img,li,body,form,blockquote,fieldset,label,abbr,span,dt,dl,dd,table,tr,th,td{border:0;margin:0;padding:0;}
-		body{min-width:280px;max-width:600px;padding:.66em .83em .83em;font-size:x-large;line-height:normal;font-family:'Trebuchet MS','Helvetica',sans-serif;text-align:left;color:#fff;background:#7b030c url(data:image/gif;base64,R0lGODlhAQDxAOYAANkEFtcEFtYEFdUEFdQEFdMEFdIEFdEEFdAEFc4EFc0EFeYFF+UFF+QFF+MFF+IFF+EFF+AFF98FF94FF90FF9sFFtoFFswEFcsEFcoEFckEFcgEFccEFMYEFMUEFMQEE8MEE8IEE8EEE8AEE78EE74EE70EE7wEE7sEE7oEE7kEE7cEErcEE7YEErUEErQEErMEErIEErEEErAEEq8EEq4EEq0EEawEEasEEZUDD5QDDpQDD5MDDpIDDpEDDpADDo8DDo4DDo0DDowDDosDDooDDYoDDokDDYgDDYcDDYYDDYUDDYQDDYMDDYIDDYEDDaoEEakEEagEEacEEaYEEKUEEKQEEKMEEKIEEKEEEKAEEJ8EEJ4ED54EEJ0ED5wED5sED5oED5kED5gED5cED5YED4ADDIADDX8DDH4DDH0DDHwDDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAAAQDxAAAHzIALDAwNDQ4OD4kQixESEhMTFJIVFRYWAJgBmgIDAwQEBQUGBwilCacKFxcYGRoaGxyxHR4fHyAhISIjIyQkJSYnJygpKSoqLCwrLS4vLzAwMTIzMzQ1NTY2Nzc4UFFRUlJTVFRVVuZXV1hZWlpbW11cXl5fX2BhYWJiY2T8ZWU5O3bo4MGjRw8fCH/8AAIkiEMhQoZIJELRSJEjGJFoTMIxiRIlS0KGZMKkickmTlKmfMKS5ZkzZmKimUkzjc2bNtXo3Mlzjc+fQIMGAgA7) repeat-x 0 0;}
+		body{min-width:280px;max-width:600px;padding:.66em .83em .83em;font-size:x-large;line-height:1.2;font-family:'Trebuchet MS','Helvetica',sans-serif;text-align:left;color:#fff;background:#7b030c url(data:image/gif;base64,R0lGODlhAQDxAOYAANkEFtcEFtYEFdUEFdQEFdMEFdIEFdEEFdAEFc4EFc0EFeYFF+UFF+QFF+MFF+IFF+EFF+AFF98FF94FF90FF9sFFtoFFswEFcsEFcoEFckEFcgEFccEFMYEFMUEFMQEE8MEE8IEE8EEE8AEE78EE74EE70EE7wEE7sEE7oEE7kEE7cEErcEE7YEErUEErQEErMEErIEErEEErAEEq8EEq4EEq0EEawEEasEEZUDD5QDDpQDD5MDDpIDDpEDDpADDo8DDo4DDo0DDowDDosDDooDDYoDDokDDYgDDYcDDYYDDYUDDYQDDYMDDYIDDYEDDaoEEakEEagEEacEEaYEEKUEEKQEEKMEEKIEEKEEEKAEEJ8EEJ4ED54EEJ0ED5wED5sED5oED5kED5gED5cED5YED4ADDIADDX8DDH4DDH0DDHwDDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAAAQDxAAAHzIALDAwNDQ4OD4kQixESEhMTFJIVFRYWAJgBmgIDAwQEBQUGBwilCacKFxcYGRoaGxyxHR4fHyAhISIjIyQkJSYnJygpKSoqLCwrLS4vLzAwMTIzMzQ1NTY2Nzc4UFFRUlJTVFRVVuZXV1hZWlpbW11cXl5fX2BhYWJiY2T8ZWU5O3bo4MGjRw8fCH/8AAIkiEMhQoZIJELRSJEjGJFoTMIxiRIlS0KGZMKkickmTlKmfMKS5ZkzZmKimUkzjc2bNtXo3Mlzjc+fQIMGAgA7) repeat-x 0 0;}
 		a{color:#ffc000;padding:0 .1em;}
 		a:hover{color:#7b030c;background:#ffc000;text-decoration:none;}
 		strong{background:#B30412;font-weight:500;padding:0 .1em;}
@@ -34,17 +34,18 @@
 		h1{margin:0 0 .33em;}
 		p{margin:.66em 0;}
 		.u-photo{width:1.2em;border-radius:1.2em;vertical-align:middle;position:relative;top:-0.1em}
+		.small{font-style:italic;font-size:.6em;margin:2em 0}
 	</style>
 </head>
 <body class="h-card vcard">
 	<h1><a href="/" class="u-url u-uid url uid p-org org">Pelles <strong>Kodfabrik</strong></a></h1>
-	<p>Hi, I'm <img class="u-photo" src="http://voxpelli.com/avatar.jpg" alt="" /> <strong class="p-name fn n">Pelle Wessman</strong>. I live in <span class="h-adr adr"><strong class="p-locality locality">Malmö</strong>, <span class="p-country-name country-name">Sweden</span></span>.</p>
-	<p class="p-note">I'm a <strong class="p-job-title title">full-stack web developer</strong> and an <strong>open source contributor</strong>.</p>
+	<p>Hi, I'm <img class="u-photo" src="http://voxpelli.com/avatar.jpg" alt="" /> <strong class="p-name fn n">Pelle Wessman</strong>. I live in <span class="h-adr adr"><strong class="p-locality locality">Malmö</strong>, <span class="p-country-name country-name">Sweden</span></span> where I work at <a class="p-org org" href="http://hdsydsvenskan.se/">HD-Sydsvenskan</a> building <a href="https://www.sydsvenskan.se/">sydsvenskan.se</a>, <a href="https://www.hd.se/">hd.se</a>, <a href="http://8till5.se/">8till5.se</a> and more.</p>
+	<p class="p-note">I'm a <strong class="p-job-title title">full-stack web developer</strong>, <strong>open source contributor</strong> and <a href="https://indieweb.org/">IndieWeb</a> participant.</p>
 	<p>I admire <strong>collaboration</strong>, <strong>open processes</strong> and those who <strong>gets things done</strong>.</p>
-	<p>I <a href="https://twitter.com/voxpelli" rel="me">tweet</a>, I <a href="https://plus.google.com/+PelleWessman" rel="me">plus</a>, I contribute code on <a href="https://github.com/voxpelli" rel="me">GitHub</a> and I occasionally <a href="http://voxpelli.com/" rel="me">blog</a>. I'm also on <a href="http://www.linkedin.com/in/pellew" rel="me">LinkedIn</a> and <a href="http://careers.stackoverflow.com/voxpelli" rel="me">Stack Overflow</a>.</p>
-  <p>I've previously worked at <a href="http://www.bloglovin.com/">Bloglovin</a>, <a href="https://valtech.se/">Valtech</a>, <a href="https://flattr.com/">Flattr</a> and <a href="http://goodold.se/">Good Old</a>.</p>
-	<p>Some of my personal projects are <a href="https://webmention.herokuapp.com/">A WebMention Endpoint</a>, <a href="https://github.com/voxpelli/relspider">RelSpider</a>, <a href="https://github.com/voxpelli/node-tema">Tema</a> + some <a href="https://npmjs.org/~voxpelli" rel="me">small Node.js modules</a>.</p>
-  <p>I may at times be available for new projects.</p>
-	<p>If you need to contact me then you can do so at <a class="u-email email" href="mailto:pelle@kodfabrik.se">pelle@kodfabrik.se</a> or, if it's urgent, <span class="p-tel tel">+46 705-15 88 21</span>.</p>
+	<p>I <a href="https://twitter.com/voxpelli" rel="me">tweet</a>, I contribute code on <a href="https://github.com/voxpelli" rel="me">GitHub</a> and I occasionally <a href="https://voxpelli.com/" rel="me">blog</a> and share <a href="https://voxpelli.com/links/">links</a>.</p>
+	<p>In the past I've had the joy of working at <a href="http://www.bloglovin.com/">Bloglovin</a>, <a href="https://valtech.se/">Valtech</a>, <a href="https://flattr.com/">Flattr</a> and Good Old + also been freelancing from time to time</p>
+	<p>Some of my <strong>personal projects</strong> are <a href="https://webmention.herokuapp.com/">A WebMention Endpoint</a>, <a href="https://github.com/voxpelli/webpage-micropub-to-github">Micropub to GitHub</a>, <a href="https://github.com/voxpelli/sass-color-helpers">Sass Color Helpers</a> and eg. <a href="https://github.com/voxpelli/node-pg-pubsub">PG PubSub</a> and other <a href="https://npmjs.org/~voxpelli" rel="me">npm modules</a>.</p>
+	<p>If you need to contact me, then you can do so at <a class="u-email email" href="mailto:pelle@kodfabrik.se">pelle@kodfabrik.se</a> or, if it's urgent, <span class="p-tel tel">+46 705-15 88 21</span>.</p>
+	<p class="small">P.S. "Pelles Kodfabrik" is Swedish for "Pelle's Code Factory". It's been the name of my personal company since I started +10 years ago.</p>
 </body>
 </html>
